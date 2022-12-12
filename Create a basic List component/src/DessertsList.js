@@ -6,6 +6,7 @@ const DessertsList = (props) => {
     .sort((a, b) => {
       return a.calories - b.calories;
     })
+    //sort
     .map((dessert) => {
       return (
         <li>
